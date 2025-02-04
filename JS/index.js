@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
     const giftCards = [
-        { name: 'Amazon', discount: '0.5%', min: 10, max: 10000, image: './IMG/Amazon.png' },
-        { name: 'Play Store', discount: '1%', min: 10, max: 10000, image: 'img/playstore.png' },
-        { name: 'FerroFy', discount: '2%', min: 10, max: 10000, image: 'img/ferrofy.png' },
-        { name: 'GF-4', discount: '1.5%', min: 10, max: 10000, image: null },
-        { name: 'GF-5', discount: '2%', min: 10, max: 10000, image: null },
-        { name: 'GF-6', discount: '0.7%', min: 10, max: 10000, image: null },
-        { name: 'GF-7', discount: '1.2%', min: 10, max: 10000, image: null },
-        { name: 'GF-8', discount: '1.8%', min: 10, max: 10000, image: null },
-        { name: 'GF-9', discount: '1%', min: 10, max: 10000, image: null },
-        { name: 'GF-10', discount: '1.5%', min: 10, max: 10000, image: null }
+        { name: 'Amazon', discount: '1%', min: 10, max: 10000, image: './IMG/Amazon.png' },
+        { name: 'Play Store', discount: '1.5%', min: 10, max: 10000, image: './IMG/Play_Store.png' },
+        { name: 'Comming Soon', discount: '0%', min: 10, max: 0, image: './IMG/Comming_Soon' },
+        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon' },
+        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon' },
+        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon' },
+        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon' },
+        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon' },
+        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon' },
+        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon' }
     ];
 
     const buttonsContainer = document.getElementById('buttonsContainer');
