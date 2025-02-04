@@ -1,0 +1,138 @@
+.Buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #000000;
+    background: linear-gradient(90deg, #90ff08, #cdff05);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    font-weight: bold;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 0;
+}
+
+.Btn img {
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.Btn:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .Btn {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Btn {
+        width: 48%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .Btn {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .Btn {
+        width: 18%;
+    }
+}
+
+/* Popup styling */
+.Popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.PopupContent {
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.CloseButton {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.CloseButton:hover,
+.CloseButton:focus {
+    color: #f90000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid orange;
+}
+
+.popup-text-title {
+    color: #ff007f;
+}
+
+.popup-text-value {
+    color: #00ff7f;
+}
+
+.popup-red-text {
+    color: #ff007f;
+}
+
+.popup-green-text {
+    color: #00ff7f;
+}
+
+.number-input {
+    width: 80%;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+
+    placeholder: {
+        color: #999;
+    }
+}
