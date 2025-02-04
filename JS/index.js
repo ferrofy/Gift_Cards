@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const giftCards = [
-        { name: 'Amazon', discount: '0.5%', min: 10, max: 10000, image: 'IMG/Amazon.png' },
+        { name: 'Amazon', discount: '0.5%', min: 10, max: 10000, image: '../IMG/Amazon.png' },
         { name: 'Play Store', discount: '1%', min: 10, max: 10000, image: 'img/playstore.png' },
         { name: 'FerroFy', discount: '2%', min: 10, max: 10000, image: 'img/ferrofy.png' },
         { name: 'GF-4', discount: '1.5%', min: 10, max: 10000, image: null },
