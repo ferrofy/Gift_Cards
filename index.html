@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FerroFy - Gift Card Discounts</title>
+    <link rel="stylesheet" href="CSS/Structure.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <header class="Header">FerroFy</header>
+    <main class="Content">
+        <div class="Buttons" id="buttonsContainer">
+        </div>
+    </main>
+    <footer class="Footer">Thank You</footer>
+
+    <div id="popup" class="Popup">
+        <div class="PopupContent">
+            <span class="CloseButton" id="closePopup">&times;</span>
+            <div id="popupText">
+                <p class="popup-text-title">Min: <span class="popup-text-value" id="minLimit"></span></p>
+                <p class="popup-text-title">Max: <span class="popup-text-value" id="maxLimit"></span></p>
+                <p class="popup-text-title">Discount: <span class="popup-text-value" id="discountValue"></span></p>
+                <hr>
+                <input type="number" id="inputAmount" class="number-input">
+                <p class="popup-red-text">To Buy: <span class="popup-green-text" id="toBuyAmount"></span></p>
+                <p class="popup-red-text">You Pay: <span class="popup-green-text" id="youPayAmount"></span></p>
+                <p class="popup-red-text">Profit: <span class="popup-green-text" id="profitAmount"></span></p>
+                <hr>
+                <p>To Buy Gift Card For Now Then Contact/Pay At - <a href="https://wa.me/7009095794"
+                        class="popup-text-value">7009095794</a></p>
+                <p>To Purchase Bulk <a href="#UpdateSoon" class="popup-text-value">Click Here</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
