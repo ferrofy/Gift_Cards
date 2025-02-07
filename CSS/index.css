@@ -27,9 +27,11 @@
 }
 
 .Btn img {
-    width: 85%;
-    height: 85%;
-    object-fit: cover;
+    max-width: 500px; 
+    max-height: 500px; 
+    width: auto;       
+    height: auto;      
+    object-fit: contain; 
     border-radius: 5px;
 }
 
@@ -61,7 +63,6 @@
     }
 }
 
-/* Popup styling */
 .Popup {
     display: none;
     position: fixed;
