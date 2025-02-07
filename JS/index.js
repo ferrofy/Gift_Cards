@@ -2,14 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const giftCards = [
         { name: 'Amazon', discount: '1%', min: 10, max: 10000, image: './IMG/Amazon.png' },
         { name: 'Play Store', discount: '1.5%', min: 10, max: 10000, image: './IMG/Play_Store.png' },
-        { name: 'Comming Soon', discount: '0%', min: 10, max: 0, image: './IMG/Comming_Soon.png' },
-        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon.png' },
-        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon.png' },
-        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon.png' },
-        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon.png' },
-        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon.png' },
-        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon.png' },
-        { name: 'Comming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Comming_Soon.png' }
+        { name: 'AJIO', discount: '3%', min: 10, max: 10000, image: './IMG/AJIO.png' },
+        { name: 'Coming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Coming_Soon.png' },
+        { name: 'Coming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Coming_Soon.png' },
+        { name: 'Coming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Coming_Soon.png' },
+        { name: 'Coming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Coming_Soon.png' },
+        { name: 'Coming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Coming_Soon.png' },
+        { name: 'Coming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Coming_Soon.png' },
+        { name: 'Coming Soon', discount: '0%', min: 0, max: 0, image: './IMG/Coming_Soon.png' }
     ];
 
     const buttonsContainer = document.getElementById('buttonsContainer');
@@ -29,6 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             button.appendChild(img);
         }
+
+        const hr = document.createElement('hr');
+        button.appendChild(hr);
+
+        const discountText = document.createElement('div');
+        discountText.classList.add('discount');
+        discountText.textContent = `Discount: ${card.discount}`;
+        button.appendChild(discountText);
 
         button.addEventListener('click', () => {
             const popup = document.getElementById('popup');
