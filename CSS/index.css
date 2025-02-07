@@ -1,3 +1,8 @@
+hr {
+  width: 100%;
+  border: 1px solid orange;
+}
+
 .Buttons {
     display: flex;
     justify-content: center;
@@ -10,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 16px;
     color: #000000;
     background: linear-gradient(90deg, #90ff08, #cdff05);
@@ -20,19 +25,33 @@
     transition: background 0.3s, color 0.3s;
     font-weight: bold;
     margin: 10px;
-    width: 150px;
-    height: 150px;
+    width: 540px;
+    height: 750px;
     text-align: center;
-    padding: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .Btn img {
-    max-width: 500px; 
-    max-height: 500px; 
-    width: auto;       
-    height: auto;      
-    object-fit: contain; 
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
     border-radius: 5px;
+}
+
+.Btn hr {
+    margin-top: 20px;
+    width: 100%;
+    border: 3px solid black;
+}
+
+.Btn .discount {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .Btn:hover {
@@ -63,6 +82,7 @@
     }
 }
 
+/* Popup styling */
 .Popup {
     display: none;
     position: fixed;
@@ -93,7 +113,6 @@
     font-weight: bold;
     cursor: pointer;
 }
-
 
 .CloseButton:hover,
 .CloseButton:focus {
@@ -132,8 +151,8 @@ hr {
     padding: 10px;
     text-align: center;
     font-size: 16px;
+}
 
-    placeholder: {
-        color: #999;
-    }
+.placeholder {
+    color: #999;
 }
