@@ -69,13 +69,14 @@ hr {
 }
 
 .Btn img {
+  max-width: 100%;
+  max-height: 100%;
   width: 500px;
   height: 500px;
   object-fit: contain;
   margin-top: 20px;
   border-radius: 10px;
 }
-
 
 .Btn hr {
   margin-top: 25px;
