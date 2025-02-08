@@ -29,7 +29,7 @@
 }
 
 .TagButton.selected {
-  background-color: rgba(57, 255, 20, 0.75);
+  background-color: rgb(38, 255, 0);
   color: black;
 }
 hr {
@@ -60,7 +60,7 @@ hr {
     font-weight: bold;
     margin: 10px;
     width: 540px;
-    height: 650px;
+    height: 540px;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
