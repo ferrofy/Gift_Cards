@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const MAX_ALL = 10000000;
+    const MAX_ALL = 1000000;
     const giftCards = [
         { name: 'Amazon', discount: '1%', min: 10, max: MAX_ALL, image: './IMG/Amazon.png', tags: ['E-Commerce'] },
         { name: 'Play_Store', discount: '1.75%', min: 10, max: MAX_ALL, image: './IMG/Play_Store.png', tags: ['Gaming'] },
