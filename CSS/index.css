@@ -1,3 +1,37 @@
+.Tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Tags::-webkit-scrollbar {
+  display: none;
+}
+
+.TagButton {
+  padding: 10px 20px;
+  background-color: #45454572;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  font-weight: bold;
+}
+
+.TagButton:hover {
+  background-color: #282a2e00;
+}
+
+.TagButton.selected {
+  background-color: rgba(57, 255, 20, 0.75);
+  color: black;
+}
 hr {
   width: 100%;
   border: 1px solid orange;
@@ -26,7 +60,7 @@ hr {
     font-weight: bold;
     margin: 10px;
     width: 540px;
-    height: 350px;
+    height: 650px;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
