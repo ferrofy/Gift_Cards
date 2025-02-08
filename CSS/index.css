@@ -69,14 +69,13 @@ hr {
 }
 
 .Btn img {
-  max-width: 500px;
-  max-height: 500px;
-  width: auto;
-  height: auto;
+  width: 500px;
+  height: 500px;
   object-fit: contain;
   margin-top: 20px;
   border-radius: 10px;
 }
+
 
 .Btn hr {
   margin-top: 25px;
@@ -114,7 +113,6 @@ hr {
   }
 }
 
-/* Popup styling */
 .Popup {
   display: none;
   position: fixed;
