@@ -70,9 +70,9 @@ hr {
 }
 
 .Btn img {
-  max-width: 500px;
-  width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  max-width: 300px;
+  max-width: 300px;
+  height: auto;
   object-fit: contain;
   margin-top: 20px;
   border-radius: 10px;
