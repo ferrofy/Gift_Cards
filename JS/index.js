@@ -2,14 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const MAX_ALL = 10000000;
     const giftCards = [
         { name: 'Amazon', discount: '1%', min: 10, max: MAX_ALL, image: './IMG/Amazon.png', tags: ['E-Commerce'] },
-        { name: 'Play Store', discount: '1.75%', min: 10, max: MAX_ALL, image: './IMG/Play_Store.png', tags: ['Gaming'] },
+        { name: 'Play Store', discount: '2%', min: 10, max: MAX_ALL, image: './IMG/Play_Store.png', tags: ['Gaming'] },
         { name: 'AJIO', discount: '3%', min: 10, max: MAX_ALL, image: './IMG/AJIO.png', tags: ['Fashion'] },
-        { name: 'Myntra', discount: '2.5%', min: 250, max: MAX_ALL, image: './IMG/Myntra.png', tags: ['Fashion'] },
-        { name: 'Zepto', discount: '2.5%', min: 100, max: MAX_ALL, image: './IMG/Zepto.png', tags: ['Food'] },
-        { name: 'KFC', discount: '3.5%', min: 100, max: MAX_ALL, image: './IMG/KFC.png', tags: ['Food'] },
+        { name: 'Myntra', discount: '2%', min: 250, max: MAX_ALL, image: './IMG/Myntra.png', tags: ['Fashion'] },
+        { name: 'Zepto', discount: '2%', min: 100, max: MAX_ALL, image: './IMG/Zepto.png', tags: ['Food'] },
+        { name: 'KFC', discount: '3%', min: 100, max: MAX_ALL, image: './IMG/KFC.png', tags: ['Food'] },
         { name: 'Book My Show', discount: '3%', min: 100, max: MAX_ALL, image: './IMG/Book_My_Show.png', tags: ['Trip'] },
-        { name: 'PVR', discount: '7.5%', min: 100, max: MAX_ALL, image: './IMG/PVR.png', tags: ['Movie'] },
-        { name: 'Barbeque Nation', discount: '4.5%', min: 500, max: MAX_ALL, image: './IMG/Barbeque_Nation.png', tags: ['Food'] },
+        { name: 'PVR', discount: '7%', min: 100, max: MAX_ALL, image: './IMG/PVR.png', tags: ['Movie'] },
+        { name: 'Barbeque Nation', discount: '4%', min: 500, max: MAX_ALL, image: './IMG/Barbeque_Nation.png', tags: ['Food'] },
         { name: 'Fab India', discount: '5%', min: 250, max: MAX_ALL, image: './IMG/Fab_India.png', tags: ['Fashion'] },
         { name: 'Fastrack', discount: '5%', min: 500, max: MAX_ALL, image: './IMG/Fastrack.png', tags: ['Other'] },
         { name: 'Big Basket', discount: '1.5%', min: 50, max: MAX_ALL, image: './IMG/Big_Basket.png', tags: ['Food'] },
@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: 'Lakme', discount: '2%', min: 500, max: MAX_ALL, image: './IMG/Lakme.png', tags: ['Fashion'] },
         { name: 'V Mart', discount: '3%', min: 100, max: MAX_ALL, image: './IMG/V_Mart.png', tags: ['E-Commerce'] },
         { name: 'Nykaa', discount: '5%', min: 10, max: MAX_ALL, image: './IMG/Nykaa.png', tags: ['Fashion'] },
-        { name: 'MamaEarth', discount: '7.5%', min: 500, max: MAX_ALL, image: './IMG/MamaEarth.png', tags: ['Fashion'] },
-        { name: 'Dominos', discount: '7.5%', min: 100, max: MAX_ALL, image: './IMG/Dominos.png', tags: ['Food'] },
+        { name: 'MamaEarth', discount: '7%', min: 500, max: MAX_ALL, image: './IMG/MamaEarth.png', tags: ['Fashion'] },
+        { name: 'Dominos', discount: '7%', min: 100, max: MAX_ALL, image: './IMG/Dominos.png', tags: ['Food'] },
         { name: 'Puma', discount: '6%', min: 500, max: MAX_ALL, image: './IMG/Puma.png', tags: ['Fashion'] },
         { name: 'My Glamm', discount: '8%', min: 250, max: MAX_ALL, image: './IMG/My_Glamm.png', tags: ['Fashion'] },
-        { name: 'Himalaya', discount: '1.75%', min: 100, max: MAX_ALL, image: './IMG/Himalaya.png', tags: ['Fashion'] },
-        { name: 'Bewakoof', discount: '6.5%', min: 500, max: MAX_ALL, image: './IMG/Bewakoof.png', tags: ['Fashion'] },
+        { name: 'Himalaya', discount: '1%', min: 100, max: MAX_ALL, image: './IMG/Himalaya.png', tags: ['Fashion'] },
+        { name: 'Bewakoof', discount: '6%', min: 500, max: MAX_ALL, image: './IMG/Bewakoof.png', tags: ['Fashion'] },
         { name: 'Cafe Coffee Day', discount: '6%', min: 100, max: MAX_ALL, image: './IMG/Cafe_Coffee_Day.png', tags: ['Food'] }
     ];
 
