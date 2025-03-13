@@ -55,9 +55,9 @@ a {
 }
 
 .Footer {
-  background: linear-gradient(90deg, #26c6da, #66bb6a, #ef5350, #ab47bc);
+  background: 85c1e9;
   background-size: 400% 400%;
-  animation: Moving_Color_Footer 7s ease infinite;
+  
   text-align: center;
   margin-top: 0;
   position: relative;
